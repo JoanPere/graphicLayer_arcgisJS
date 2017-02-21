@@ -20,8 +20,8 @@
 		require(["esri/map",
 			"esri/geometry/Circle",
 			"esri/symbols/SimpleFillSymbol", 
-        	"esri/graphic", 
-        	"esri/layers/GraphicsLayer",
+        		"esri/graphic", 
+        		"esri/layers/GraphicsLayer",
 			"dojo/domReady!"], 
 		function(
 			Map, 
@@ -38,8 +38,8 @@
 		    	isPanArrows: true
 		  	});
 
-		    //se crea la simbología para el gráfico
-		    var symbol = new SimpleFillSymbol().setColor(null).outline.setColor("blue");
+	    	//se crea la simbología para el gráfico
+	    	var symbol = new SimpleFillSymbol().setColor(null).outline.setColor("blue");
         	//capa de gráficos dónde se irán añadiendo los círculos
         	var gl = new GraphicsLayer({ id: "circles" });
 
